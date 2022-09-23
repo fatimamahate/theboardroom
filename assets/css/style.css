@@ -8,10 +8,16 @@
 body{
    font-family: 'Source Sans Pro', sans-serif;
    font-size:100; 
-   color: #e9e99c;
-   background-color:#65081F;
 }
 
+header{
+    color: #e9e99c;
+    background-color:#65081F;
+}
+
+#intro{
+    background-color: aqua;
+}
 /* Logo and Headers*/
 
 h1 ,h2{
