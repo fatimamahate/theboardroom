@@ -15,14 +15,26 @@ header{
     background-color:#65081F;
 }
 
-#intro{
-    background-color: aqua;
-}
+
 /* Logo and Headers*/
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    background-color: #e9e99c;
+    color:#65081F;
+}
 h1 ,h2{
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
     color:antiquewhite;
     letter-spacing:4px;
 }
+
+#intro{
+    background-color: aqua;
+}
+
