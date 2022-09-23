@@ -8,4 +8,15 @@
 body{
    font-family: 'Source Sans Pro', sans-serif;
    font-size:100; 
+   color: #e9e99c;
+   background-color:#65081F;
+}
+
+/* Logo and Headers*/
+
+h1 ,h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color:antiquewhite;
+    letter-spacing:4px;
 }
