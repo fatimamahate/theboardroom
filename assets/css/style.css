@@ -33,11 +33,14 @@ h1 ,h2{
     color:#e9e99c;
     letter-spacing:4px;
 }
-
+/* Intro section */
 #intro{
     background-color: aqua;
 }
-
+/* Reasons to join */
+#reasons{
+    background-color: rgb(241, 68, 97);
+}
 
 /* Footer */
 footer{
