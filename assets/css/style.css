@@ -30,7 +30,7 @@ a:hover{
 h1 ,h2{
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
-    color:antiquewhite;
+    color:#e9e99c;
     letter-spacing:4px;
 }
 
@@ -38,3 +38,7 @@ h1 ,h2{
     background-color: aqua;
 }
 
+footer{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:100;
+}
