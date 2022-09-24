@@ -41,7 +41,10 @@ h1 ,h2{
 #reasons{
     background-color: rgb(241, 68, 97);
 }
-
+/* meet up */
+#meetup{
+    background-color: #36ad12;
+}
 /* Footer */
 footer{
     background-color:#65081F;
