@@ -29,24 +29,33 @@
         <input type="text" name="lname" id="lname" required>
         <label for="email_address">Email Address</label>
         <input type="email" name="email_address" id="email_address" required>
-        <label for="game">Game1</label>
+        <p>Which game would you prefer to play?</p>
+        <label for="game">Duopoly</label>
         <input type="radio" name="game" id="game1" value="game1"required>
-        <label for="game">Game2</label>
+        <label for="game">HintDo</label>
         <input type="radio" name="game" id="game2" value="game2" >
-        <label for="game">Game3</label>
+        <label for="game">Chess</label>
         <input type="radio" name="game" id="game3" value="game3">
         <p>Which meet up times would you like to attend?</p>
-        <label for="timing">Meet up 1</label>
+        <label for="timing">Thursday</label>
         <input type="checkbox" name="timing" id="meetup1" value="one">
-        <label for="timing">Meet up 2</label>
+        <label for="timing">Friday</label>
         <input type="checkbox" name="timing" id="meetup2" value="two">
-        <label for="timing">Meet up 3</label>
+        <label for="timing">Both</label>
         <input type="checkbox" name="timing" id="meetup3" value="three">
+        <div>
+            <p>
+                Note: You will only need to fill this form in once. If you would like to join again, then just let us know at the session.
+            </p>
+        </div>
         <p>Would you like to donate a board game?</p>
         <label for="donate">Yes</label>
         <input type="radio" name="donate" id="yes" value="Y">
         <label for="donate">No</label>
         <input type="radio" name="donate" id="no" value="N">
+        <br>
+        <label for="extrainfo">Extra Notes</label>
+        <textarea>Add any extra information or notes here.</textarea>
         <button type="submit">Send</button>
         <button type="reset">Reset Form</button>
     </form>
