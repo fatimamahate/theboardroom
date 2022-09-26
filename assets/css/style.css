@@ -13,9 +13,9 @@ body{
 
 /* Logo and Headers*/
 header {
-    color: #e9e99c;
-    background-color: #65081F;
-    left: 0;
+    color: #65081F;
+    background-color: #65081F; 
+    left: 0; 
     top: 0;
     width: 100%;
     position: absolute;
@@ -51,7 +51,7 @@ h1{
 
 #menu a{
     text-decoration: none;
-    color: inherit; 
+    color: #e9e99c; 
 }
 
 #menu a:hover{
@@ -61,83 +61,3 @@ h1{
  
 
 /* Intro section */
-#intro {
-    background-color: aqua;
-    left: 0;
-    top: 250px;
-    width: 100%;
-    position: absolute;
-    display: inline-block;
-    overflow: hidden;
-}
-
-#intro-image{
-    margin-left: 30px;
-    padding: 0;
-    float:left;
-}
-
-#intro-text{
-    width: 50%;
-    border: 1px;
-    margin: 20px;
-    font-size: 2rem;
-    text-align: left;
-    float: right;
-}
-
-
-/* Reasons to join
-#reasons{
-    background-color: rgb(241, 68, 97);
-} */
-
-/* meet up */
-#meetup{
-    position: relative;
-    top:550px;
-    width:100%;
-    background: #36ad12;
-
-    background: url('images/dublin-city.webp'); 
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow:hidden;
-} 
-
-#meetup div{
-    text-align: center;
-}
-
-#meetup-intro{
-    font-size:2rem;
-}
-
-.time{
-    display: flex;
-    justify-content: center;
-    border: 2px solid black;
-    margin: 20px;
-    font-size: 1rem;
-}
-
-/* Footer */
-footer{
-    background-color:#65081F;
-    bottom:0;
-    height:8rem;
-    width:100%;
-    left:0;
-    position:absolute;
-}
-
-.socials{
-    text-align:center;
-}
-
-.socials > li {
-    display: inline;
-}
-
