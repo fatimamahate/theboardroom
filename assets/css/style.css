@@ -11,21 +11,16 @@ body{
 }
 
 /* Logo and Headers*/
-header{
+header {
     color: #e9e99c;
-    background-color:#65081F;
+    background-color: #65081F;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+
 }
 
-nav a{
-    text-decoration: none;
-    color: inherit; 
-}
-
-nav a:hover{
-    background-color: #e9e99c;
-    color:#65081F;
-} 
- 
 h1{
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
@@ -33,18 +28,52 @@ h1{
     letter-spacing:4px;
     text-align: center;
 }
-/* Intro section */
-#intro{
-    background-color: aqua;
+
+#logo{
+    text-align: center;
 }
-/* Reasons to join */
+
+#menu{
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+
+#menu li{
+    float: right;
+    list-style-type: none;
+    margin:30px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: inherit; 
+}
+
+#menu a:hover{
+    background-color: #e9e99c;
+    color:#65081F;
+} 
+ 
+
+/* Intro section */
+#intro {
+    background-color: aqua;
+    left: 0;
+    top: 250px;
+    width: 100%;
+    position: absolute;
+}
+/* Reasons to join
 #reasons{
     background-color: rgb(241, 68, 97);
 }
 /* meet up */
-#meetup{
+/* #meetup{
+    position: relative;
+    top:500px;
     background-color: #36ad12;
-}
+} */ 
 
 
 /* Footer */
