@@ -10,28 +10,30 @@ body{
    font-size:100; 
 }
 
+/* Logo and Headers*/
 header{
     color: #e9e99c;
     background-color:#65081F;
 }
-
-
-/* Logo and Headers*/
-
-a{
+header nav ul {
+    list-style: none;
+}
+nav a{
     text-decoration: none;
-    /* color: inherit; */
+    color: inherit; 
 }
 
-a:hover{
+ nav a:hover{
     background-color: #e9e99c;
     color:#65081F;
-}
-h1 ,h2{
+} 
+ 
+h1{
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
     color:#e9e99c;
     letter-spacing:4px;
+    text-align: center;
 }
 /* Intro section */
 #intro{
@@ -45,6 +47,8 @@ h1 ,h2{
 #meetup{
     background-color: #36ad12;
 }
+
+
 /* Footer */
 footer{
     background-color:#65081F;
