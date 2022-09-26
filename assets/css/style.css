@@ -98,4 +98,9 @@ h1{
 /* Footer */
 footer{
     background-color:#65081F;
+    bottom:0;
+    height:8rem;
+    width:100%;
+    left:0;
+    position:absolute;
 }
