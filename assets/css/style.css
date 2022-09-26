@@ -8,32 +8,32 @@
 body{
    font-family: 'Source Sans Pro', sans-serif;
    font-size:100; 
-   color:#e9e99c
+   color: #65081F
 }
 
 /* Logo and Headers*/
-header {
+/* header {
     color: #65081F;
     background-color: #65081F; 
     left: 0; 
     top: 0;
     width: 100%;
     position: absolute;
-}
+} */
 
 h1{
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
-    color:#e9e99c;
+    color:#65081F;
     letter-spacing:4px;
-    text-align: left;
-    margin-top: 50px;
 }
 
 #logo{
     text-align: left;
+    margin-left: 30px;
 }
 
+/* nav */
 #menu{
     font-size: 100%;
 }
@@ -51,13 +51,74 @@ h1{
 
 #menu a{
     text-decoration: none;
-    color: #e9e99c; 
+    color: inherit; 
 }
 
 #menu a:hover{
-    background-color: #e9e99c;
-    color:#65081F;
+    background-color: #65081F;
+    color:white;
 } 
  
 
 /* Intro section */
+#intro{
+    height:600px;
+    width:100%;
+    overflow:hidden;
+    position: relative;
+}
+
+#intro-image{
+    height:600px;
+    width:125vw;
+    background: url(../images/pexels-zacharias-korsalka-10355568.jpg) no-repeat center center;
+    background-size: 100%;
+    opacity:0.4;
+}
+
+#intro-text{
+    color: #e9e9e9;
+    font-size: 100%;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color:#65081F;
+
+    bottom: 30%;
+    right: 150px;
+
+    position:absolute;
+}
+
+/* Meet up times section */
+#meetup{
+    height: 600px;
+}
+
+#meetup-intro{
+    font-size: 100%;
+    padding:33px;
+    text-align: center;
+    font-size:2rem;
+}
+
+.time{
+    display: inline-block;
+    border:2px solid #65081F;
+    text-align:center;
+    padding:30px;
+    font-size: 1.5rem;
+    width: 45%;
+}
+
+#time1{
+    float:right;
+}
+
+#time2{
+    float: left;
+}
