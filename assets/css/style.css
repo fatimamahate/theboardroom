@@ -15,15 +15,13 @@ header{
     color: #e9e99c;
     background-color:#65081F;
 }
-header nav ul {
-    list-style: none;
-}
+
 nav a{
     text-decoration: none;
     color: inherit; 
 }
 
- nav a:hover{
+nav a:hover{
     background-color: #e9e99c;
     color:#65081F;
 } 
