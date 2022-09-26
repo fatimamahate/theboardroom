@@ -124,8 +124,9 @@ h1{
 }
 
 /* Reasons to join */
-#reasons > h2{
+#reasons h2{
     font-family: 'Permanent Marker', cursive;
+    /* border: #65081F 2px solid ; */
 }
 
 #reasons ul{
@@ -133,11 +134,10 @@ h1{
 }
 
 #r1, #r3, #r5{
-    float:left;
-    justify-content: right;
+    text-align: center;
+    border: #65081F 2px solid ;
 }
 
 #r2,#r4{
-    float:right;
-    justify-content: left;
+  text-align: center;
 }
