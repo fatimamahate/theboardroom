@@ -65,27 +65,7 @@ h1{
     position: absolute;
 }
 
-#intro-image{ 
-    background:url(../images/riho-kroll-m4sGYaHYN5o-unsplash.jpg) ;
-    height:600px;
-    width:100%;
-}
 
-#intro-text{
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(255, 252, 79, 0.658);
-
-    bottom: 30%;
-    right: 150px;
-
-    position:absolute;
-}
 /* Reasons to join
 #reasons{
     background-color: rgb(241, 68, 97);
