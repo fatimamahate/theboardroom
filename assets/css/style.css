@@ -8,6 +8,7 @@
 body{
    font-family: 'Source Sans Pro', sans-serif;
    font-size:100; 
+   color:#e9e99c
 }
 
 /* Logo and Headers*/
@@ -25,24 +26,27 @@ h1{
     font-size: 50px;
     color:#e9e99c;
     letter-spacing:4px;
-    text-align: center;
+    text-align: left;
     margin-top: 50px;
 }
 
 #logo{
-    text-align: center;
+    text-align: left;
 }
 
 #menu{
-    display: inline-block;
-    text-align: center;
-    overflow: hidden;
+    font-size: 100%;
+}
+
+#menu, #logo{
+    line-height: 15px;
 }
 
 #menu li{
-    float: right;
+    float:right;
     list-style-type: none;
     margin:30px;
+    font-size: 1.5rem;
 }
 
 #menu a{
@@ -86,14 +90,38 @@ h1{
 /* Reasons to join
 #reasons{
     background-color: rgb(241, 68, 97);
-}
-/* meet up */
-/* #meetup{
-    position: relative;
-    top:500px;
-    background-color: #36ad12;
-} */ 
+} */
 
+/* meet up */
+#meetup{
+    position: relative;
+    top:550px;
+    width:100%;
+    background: #36ad12;
+
+    background: url('images/dublin-city.webp'); 
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow:hidden;
+} 
+
+#meetup div{
+    text-align: center;
+}
+
+#meetup-intro{
+    font-size:2rem;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 20px;
+    font-size: 1rem;
+}
 
 /* Footer */
 footer{
@@ -104,3 +132,12 @@ footer{
     left:0;
     position:absolute;
 }
+
+.socials{
+    text-align:center;
+}
+
+.socials > li {
+    display: inline;
+}
+
