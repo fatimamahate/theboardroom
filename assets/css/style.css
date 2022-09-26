@@ -110,17 +110,19 @@ h1{
     display: inline-block;
     border:2px solid #65081F;
     text-align:center;
-    padding:30px;
+    padding:1px;
     font-size: 1.5rem;
-    width: 45%;
+    width: 20%;
 }
 
 #time1{
-    float:right;
+    float:left;
+    margin-left: 25%;
 }
 
 #time2{
-    float: left;
+    float: right;
+    margin-right: 25%;
 }
 
 /* Reasons to join */
@@ -131,13 +133,13 @@ h1{
 
 #reasons ul{
     list-style: none;
-}
-
-#r1, #r3, #r5{
     text-align: center;
-    border: #65081F 2px solid ;
+    margin: auto;
+    border: #65081F 2px solid;
 }
 
-#r2,#r4{
-  text-align: center;
-}
+
+
+
+
+
