@@ -98,9 +98,10 @@ h1, h2{
     background-color: rgb(51, 10, 10);
 }
 
-#meetup h3{
+#meetup-intro h3{
     margin-top: 2px;
     margin-bottom: 2px;
+    font-size: 2rem;
 }
 
 #meetup-intro{
@@ -108,7 +109,7 @@ h1, h2{
     padding:33px;
     text-align: center;
     color:white;
-    font-size:2rem;
+    font-size:1.5rem;
 }
 
 .time{
@@ -144,11 +145,12 @@ h1, h2{
     list-style: none;
     text-align: center;
     margin:0;
-    /* margin: auto; */
+    font-size: 1.5rem;
+    padding:0;
 } 
 
 #reasons h3{
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0;
 }
 
