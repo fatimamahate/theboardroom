@@ -86,18 +86,20 @@ h1, h2{
 /* meet up section */
 #meetup{
     height: 300px;
+    background-color: rgb(51, 10, 10);
 }
 
 #meetup-intro{
     font-size: 100%;
     padding:33px;
     text-align: center;
+    color:white;
     font-size:2rem;
 }
 
 .time{
     display: inline-block;
-    border:2px solid #65081F;
+    border:2px solid white;
     text-align:center;
     padding:1px;
     font-size: 1.5rem;
@@ -107,14 +109,20 @@ h1, h2{
 #time1{
     float:left;
     margin-left: 25%;
+    background-color: white;
 }
 
 #time2{
     float: right;
     margin-right: 25%;
+    background-color: white;
 }
 
 /* Reasons to join */
+#reasons{
+    height:500px;
+    color: rgb(51, 10, 10);
+}
 
  #reasons ul{
     list-style: none;
@@ -127,10 +135,30 @@ h1, h2{
     margin-bottom: 0;
 }
 
+#reasons-right{
+    float:right;
+}
+
+#reasons-left{
+    float:left;
+}
+
+#reasons-right h3{
+    text-align: center;
+}
+
+#reasons-left h3{
+    text-align: center;
+}
+
+
+
+
+
 /* footer */
 footer{
     height:150px;
-    background-color: black;
+    background-color: rgb(51, 10, 10);
     bottom:0;
     left:0;
     position:absolute;
@@ -145,11 +173,10 @@ footer{
 
 .socials > li{
     display:inline;
-margin-left: 100px;
-margin-right:100px;
-
-justify-content: center;
-text-align: center;
+    margin-left: 100px;
+    margin-right:100px;
+    justify-content: center;
+    text-align: center;
 }
 
 
