@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Sans+Pro&display=swap');
 
-.{
+html{
     margin:0;
     padding:0;
     border:none;
-}
-
-html{
     position: relative;
     min-height: 100%;
 }
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    font: size 18.75rem;
     color:#65081f;
     max-width:1800px;
     margin-left: auto;
@@ -22,9 +18,8 @@ body{
 
 h1, h2{
     font-family: 'Source sans pro', sans serif;
-    font-style: bold;
     font-size:4rem;
-    margin:0 0 0 50;
+    /* margin:0 0 0 50px; */
     color:#65081F;
     letter-spacing: -3px;
     text-align:center;
@@ -32,12 +27,15 @@ h1, h2{
 
 #menu,#logo{
     line-height: 70px;
+    vertical-align: center;
 }
+
+
 
 #menu li{
     float:right;
     list-style-type: none;
-    margin: 0 30 0 0;
+    margin: 0 30px 0 0;
     font-size: 1.5rem;
     margin-left: 10px;
     margin-right: 50px;
@@ -59,34 +57,50 @@ h1, h2{
     overflow:hidden;
     position:relative;
     text-align: center;
-}
-
-#intro-image{
-    height:600px;
-    width:100%;
     background: url(../images/randy-fath-G1yhU1Ej-9A-unsplash.jpg) no-repeat center center;
     background-size: cover;
 }
 
-#intro-image> p{
+#intro-text{
     color:white;
-    /* background-color:rgb(83, 18, 18); */
-    background-color:rgb(51, 10, 10);
     width:40%;
+    position: absolute;
+}
+
+#intro-text > h3{ 
+    background-color: rgb(51, 10, 10);
+    width:100%;
+    font-size: 3rem;
+    opacity: 1;
+    float:right;
+    position:absolute;
+    margin-top: 37.5px;
+    margin-left: 25px;
+    padding:25px;
+
+}
+
+#intro-text> p{
+    background-color: rgb(51, 10, 10);
     font-size: 2rem;
     opacity: 1;
     float:right;
     position:absolute;
-    margin-top: 100px;
+    margin-top: 125px;
     margin-left: 25px;
-    padding-left:25px;
-    padding-right: 25px;
+    padding:25px;
+    width:100%;
 }
 
 /* meet up section */
 #meetup{
     height: 300px;
     background-color: rgb(51, 10, 10);
+}
+
+#meetup h3{
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 #meetup-intro{
@@ -122,37 +136,21 @@ h1, h2{
 #reasons{
     height:500px;
     color: rgb(51, 10, 10);
+    margin-top:5rem;
+    overflow: hidden;
 }
 
  #reasons ul{
     list-style: none;
     text-align: center;
-    margin: auto;
+    margin:0;
+    /* margin: auto; */
 } 
 
 #reasons h3{
     font-size: 3rem;
-    margin-bottom: 0;
+    margin: 0;
 }
-
-#reasons-right{
-    float:right;
-}
-
-#reasons-left{
-    float:left;
-}
-
-#reasons-right h3{
-    text-align: center;
-}
-
-#reasons-left h3{
-    text-align: center;
-}
-
-
-
 
 
 /* footer */
@@ -161,10 +159,10 @@ footer{
     background-color: rgb(51, 10, 10);
     bottom:0;
     left:0;
-    position:absolute;
+    position:static;
     width:100%;
+    overflow: hidden;
 }
-
 
 .socials{
     text-align:center;
