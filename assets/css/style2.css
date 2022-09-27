@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Sans+Pro&display=swap');
+
+.{
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font: size 18.75rem;
+    color:#65081f;
+    max-width:1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2{
+    font-family: 'Source sans pro', sans serif;
+    font-style: bold;
+    font-size:4rem;
+    margin:0 0 0 50;
+    color:#65081F;
+    letter-spacing: -3px;
+    text-align:center;
+}
+
+#menu,#logo{
+    line-height: 70px;
+}
+
+#menu li{
+    float:right;
+    list-style-type: none;
+    margin: 0 30 0 0;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+#menu a{
+    text-decoration: none;
+    color:inherit;
+}
+
+#menu a:hover{
+    background-color: #65081F;
+    color:white;
+}
+
+#intro{
+    height:600px;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+    text-align: center;
+}
+
+#intro-image{
+    height:600px;
+    width:100%;
+    background: url(../images/randy-fath-G1yhU1Ej-9A-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#intro-image> p{
+    color:white;
+    /* background-color:rgb(83, 18, 18); */
+    background-color:rgb(51, 10, 10);
+    width:40%;
+    font-size: 2rem;
+    opacity: 1;
+    float:right;
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 25px;
+    padding-left:25px;
+    padding-right: 25px;
+}
+
+/* meet up section */
+#meetup{
+    height: 300px;
+}
+
+#meetup-intro{
+    font-size: 100%;
+    padding:33px;
+    text-align: center;
+    font-size:2rem;
+}
+
+.time{
+    display: inline-block;
+    border:2px solid #65081F;
+    text-align:center;
+    padding:1px;
+    font-size: 1.5rem;
+    width: 20%;
+}
+
+#time1{
+    float:left;
+    margin-left: 25%;
+}
+
+#time2{
+    float: right;
+    margin-right: 25%;
+}
+
+/* Reasons to join */
+
+ #reasons ul{
+    list-style: none;
+    text-align: center;
+    margin: auto;
+} 
+
+#reasons h3{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+/* footer */
+footer{
+    height:150px;
+    background-color: black;
+    bottom:0;
+    left:0;
+    position:absolute;
+    width:100%;
+}
+
+
+.socials{
+    text-align:center;
+    list-style: none;
+}
+
+.socials > li{
+    display:inline;
+margin-left: 100px;
+margin-right:100px;
+
+justify-content: center;
+text-align: center;
+}
+
+

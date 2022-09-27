@@ -99,7 +99,7 @@ h1{
 
 /* Meet up times section */
 #meetup{
-    height: 400px;
+    height: 300px;
 }
 
 #meetup-intro{
@@ -129,16 +129,19 @@ h1{
 }
 
 
-/* Reasons to join */
+Reasons to join
 #reasons h2{
     font-family: 'Permanent Marker', cursive;
     /* border: #65081F 2px solid ; */
 }
 
-#reasons ul{
+ #reasons ul{
     list-style: none;
     text-align: center;
     margin: auto;
+} 
+
+ #r1 {
     border: #65081F 2px solid;
 }
 
