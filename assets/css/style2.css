@@ -25,6 +25,8 @@ h1{
     text-align:center;
 }
 
+header{margin-bottom: 100px;}
+
 #menu,#logo{
     line-height: 70px;
     vertical-align: center;
@@ -253,7 +255,7 @@ footer{
     font-size: 1.1rem;
 }
 
-#whats-on-text>h2{
+/* #whats-on-text>h2{
     background-color: rgb(51, 10, 10);
     color:white;
     width:100%;
@@ -275,7 +277,7 @@ footer{
     position:absolute;
     left:10%;
     padding:10px;
-}
+} */
 
 .shop{
     display: grid;
@@ -310,6 +312,86 @@ footer{
     color: white;
 }
 
+.play-games{
+    width:100%;
+    position:relative;
+}
+.the-games{
+    display: block;
+    position: absolute; 
+    padding: 0; 
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(51, 10, 10);
+    color:white;
+    border: rgb(51, 10, 10) 3px solid;
+}
+
+#id1{
+    float:right;
+    right:10%;
+    width:15%;
+}
+
+#id2{
+    float:left;
+    left:43.5%;
+    width:15%;
+}
+
+#id3{
+    float:left;
+    width:15%;
+    left:10%;
+}
+
+.overlay{
+    width: 100%;
+    display: none;
+    border: 1px solid black;
+    position: relative; 
+    padding: 0; 
+    text-align: center;
+}
+
+#ov1, #ov2, #ov3{
+    width:50%;
+    font-size: 2rem;
+    left:25%;
+    right:25%;
+    margin-top: 150px;
+    position: absolute;
+}
 
 
+
+#id1:hover ~ #ov1{
+    display: block;
+}
+
+#id2:hover ~ #ov2{
+    display: block;
+}
+
+#id3:hover ~ #ov3{
+    display: block;
+}
+
+#id1:hover{
+    background-color: white;
+    border: rgb(51, 10, 10) 3px solid;
+    color:rgb(51, 10, 10);
+}
+
+#id2:hover{
+    background-color: white;
+    border: rgb(51, 10, 10) 3px solid;
+    color:rgb(51, 10, 10);
+}
+
+#id3:hover{
+    background-color: white;
+    border: rgb(51, 10, 10) 3px solid;
+    color:rgb(51, 10, 10);
+}
 
