@@ -183,6 +183,7 @@ footer{
 
 .form-section{
     margin: 0 50px 0 50px;
+    width:100%
 }
 
 #form-text> h3{
@@ -207,10 +208,10 @@ footer{
     color:#fff;
     background-color:rgb(51, 10, 10);
     text-align: center;
-    width:400px;
+    width:33%;
     max-width:1800px;
     position:absolute;
-    right:5%;
+    right:0%;
     padding:10px;
 }
 
@@ -220,11 +221,12 @@ color:#fff;
 background-color:rgb(51, 10, 10);
 text-align: center;
 /* height:50px; */
-width:500px;
+width:33%;
 position:absolute;
-left:5%;
+/* left:5%; */
 padding:10px;
 }
+
 
 
 
