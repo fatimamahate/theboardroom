@@ -161,6 +161,7 @@ h1, h2{
 footer{
     height:150px;
     background-color: rgb(51, 10, 10);
+    margin-top: 150px;
     bottom:0;
     left:0;
     position:absolute;
@@ -180,3 +181,35 @@ footer{
     justify-content: center;
     text-align: center;
 }
+
+.form-section{
+    margin: 0 50px 0 50px;
+}
+
+.form-section > h3{
+    background-color: rgb(51, 10, 10);
+    width:100%;
+    font-size: 3rem;
+    opacity: 1;
+    float:right;
+    position:absolute;
+    margin-top: 37.5px;
+    margin-left: 25px;
+    padding:15px;
+}
+
+
+#form-text{
+    margin: 100px 0 100px 150px;
+    color:#fff;
+    background-color:rgb(51, 10, 10);
+    text-align: center;
+    width:400px;
+    max-width:1800px;
+    position:absolute;
+    right:10%;
+    padding:30px;
+}
+
+
+
