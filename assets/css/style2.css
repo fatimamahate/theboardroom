@@ -138,7 +138,7 @@ h1, h2{
 
 /* index reasons to join */
 #reasons{
-    height:500px;
+    height:700px;
     color: rgb(51, 10, 10);
     margin-top:5rem;
     overflow: hidden;
@@ -160,7 +160,7 @@ h1, h2{
 /* footer */
 footer{
     height:150px;
-    margin-top: 150px;
+    margin-top: 100px;
     bottom:0;
     left:0;
     position:absolute;
@@ -210,19 +210,23 @@ footer{
     width:400px;
     max-width:1800px;
     position:absolute;
-    right:10%;
+    right:5%;
     padding:10px;
 }
 
 #whats-on{
-    margin:150px 10% 0 0;
-    color:#fff;
-    background-color:rgba(60, 60, 60, 0.6);
-    max-width:400px;
-    position:absolute;
-    left:10%;
-    padding:30px;
+margin:100px 0 100px 0;
+color:#fff;
+background-color:rgb(51, 10, 10);
+text-align: center;
+/* height:50px; */
+width:500px;
+position:absolute;
+left:5%;
+padding:10px;
 }
+
+
 
 
 
