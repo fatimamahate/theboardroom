@@ -10,7 +10,7 @@ html{
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    color:#65081f;
+    color:rgb(51, 10, 10);
     max-width:1800px;
     margin-left: auto;
     margin-right: auto;
@@ -20,7 +20,7 @@ h1{
     font-family: 'Source sans pro', sans serif;
     font-size:4rem;
     /* margin:0 0 0 50px; */
-    color:#65081F;
+    color:rgb(51, 10, 10);
     letter-spacing: -3px;
     text-align:center;
 }
@@ -52,7 +52,7 @@ header{
 }
 
 #menu a:hover{
-    background-color: #65081F;
+    background-color: rgb(51, 10, 10);
     color:white;
 }
 
@@ -191,22 +191,57 @@ footer{
     left:0;
     width:100%;
     overflow: hidden;
-    /* background-color: black; */
 }
 
 .socials{
     text-align:center;
     list-style: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.socials > li{
-    display:inline;
-    margin-left: 100px;
-    margin-right:100px;
+.socials li{
+    display:inline-block;
+    margin-left: 50px;
+    margin-right:50px;
     justify-content: center;
     text-align: center;
 }
 
+.socials li a{
+    color: rgb(51, 10, 10);
+    text-decoration: none;
+    font-size:2rem;
+}
+
+.address > p{
+    display:inline;
+    /* margin:1150px 150px 150px; */
+    margin-left: 50px;
+    margin-right:150px;
+    margin-top:25px;
+    /* justify-content: center; */
+    text-align: center;
+    float:left;
+    left:50%;
+    font-size: 1.1rem;
+}
+
+.contact-info > p{
+    display:inline;
+    /* margin:1150px 150px 150px; */
+    margin-left: 50px;
+    margin-right:50px;
+    margin-top:25px;
+    /* justify-content: center; */
+    text-align: center;
+    float:right;
+    right:50%;
+    font-size:1.1rem;
+}
+
+
+/* sign-up page */
 .form-section{
     height:600px;
     width:100%;
