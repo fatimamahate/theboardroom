@@ -363,8 +363,6 @@ footer{
     position: absolute;
 }
 
-
-
 #id1:hover ~ #ov1{
     display: block;
 }

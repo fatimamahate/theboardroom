@@ -34,12 +34,13 @@
             <input type="email" name="email_address" id="email_address" required>
 
             <p>Which game would you prefer to play?</p>
-            <label for="game">Duopoly</label>
-            <input type="radio" name="game" id="game1" value="game1"required>
-            <label for="game">HintDo</label>
-            <input type="radio" name="game" id="game2" value="game2" >
-            <label for="game">Chess</label>
-            <input type="radio" name="game" id="game3" value="game3">
+            
+            <select name="game" id="game" size="" required>
+                <option value="">~~Select Game~~</option>
+                <option value="Duopoly">Duopoly</option>
+                <option value="HintDo">HintDo</option>
+                <option value="Chess">Chess</option>
+            </select>
 
             <p>Which meet up times would you like to attend?</p>
             <label for="timing">Thursday</label>
@@ -54,8 +55,6 @@
             <input type="radio" name="donate" id="no" value="N">
             <br>
             <button type="submit" id="submit">Send</button>
-            <br>
-            <button type="reset" id="reset">Reset Form</button>
         </form>
     </section>
 
