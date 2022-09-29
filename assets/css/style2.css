@@ -19,7 +19,6 @@ body{
 h1{
     font-family: 'Source sans pro', sans serif;
     font-size:4rem;
-    /* margin:0 0 0 50px; */
     color:rgb(51, 10, 10);
     letter-spacing: -3px;
     text-align:center;
@@ -115,8 +114,6 @@ header{
 
 }
 
-
-
 /* index meet up section */
 #meetup{
     height: 400px;
@@ -172,7 +169,6 @@ header{
     height:600px;
     color: rgb(51, 10, 10);
     margin-top:5rem;
-    /* overflow: hidden; */
 }
 
 #reasons ul{
@@ -233,11 +229,9 @@ footer{
 
 .address > p{
     display:inline;
-    /* margin:1150px 150px 150px; */
     margin-left: 50px;
     margin-right:150px;
     margin-top:25px;
-    /* justify-content: center; */
     text-align: center;
     float:left;
     left:50%;
@@ -246,11 +240,9 @@ footer{
 
 .contact-info > p{
     display:inline;
-    /* margin:1150px 150px 150px; */
     margin-left: 50px;
     margin-right:50px;
     margin-top:25px;
-    /* justify-content: center; */
     text-align: center;
     float:right;
     right:50%;
@@ -266,9 +258,9 @@ footer{
     overflow:hidden;
     position:relative;
     text-align: center;
-    background: url(../images/randy-fath-G1yhU1Ej-9A-unsplash.jpg) ;
+    background: url(../images/pexels-vlada-karpovich-6114959.jpg) ;
     background-size: cover;
-    background-position: center;
+    background-position:bottom;
 }
 
 #form-text> h2{
@@ -322,20 +314,6 @@ footer{
     font-size: 1.5rem;
 }
 
-/* #form-text > #reset:hover{
-    border: white 4px solid;
-    color: rgb(51, 10, 10);
-    background-color: white;
-    font-size: 1.1rem;
-}
-
-#form-text > #reset{
-    border: white 4px solid;
-    color: white;
-    background-color: rgb(51, 10, 10);
-    font-size: 1.1rem;
-} */
-
 select{
     text-align: center;
     font-family: 'source sans pro', sans-serif;
@@ -359,11 +337,10 @@ select{
 }
 /* whats on page*/
 
-
 #play-games{
     width:100%;
     height: 700px;
-    background: url(../images/randy-fath-G1yhU1Ej-9A-unsplash.jpg) no-repeat center center;
+    background: url(../images/riho-kroll-m4sGYaHYN5o-unsplash.jpg) no-repeat center center;
     background-position: center;
     background-size: cover;
     margin-bottom: 150px;
@@ -377,9 +354,6 @@ select{
     margin:0;
     color: white;
     background-color: rgb(51, 10, 10);
-   
-    /* margin-top: 1px; */
-
 }
 
 #play-games > p{
@@ -438,6 +412,7 @@ select{
     right:25%;
     margin-top: 100px;
     position: absolute;
+    border: 10px solid rgb(51, 10, 10);
 }
 
 #id1:hover ~ #ov1{
