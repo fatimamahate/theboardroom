@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
 
 <h1 align="center">The Board Room Website</h1>
 
@@ -24,17 +24,19 @@ Users of the website will
 * find out what games are on sale.
 
 ## Features
-The logo is designed so that the user can click on it and be redirected to home page (index.html). This is a standard in many websites and is therefore included. Furthermore, the logo is consistent on all pages.
+*The logo is designed so that the user can click on it and be redirected to home page (index.html). This is a standard in many websites and is therefore included. Furthermore, the logo is consistent on all pages.
 
-The nav bar is also consistent on all pages. It changes to opposite colours when the user hovers over the text. The user will be sure they are selecting the correct page they require. 
+*The nav bar is also consistent on all pages. It changes to opposite colours when the user hovers over the text. The user will be sure they are selecting the correct page they require. 
 
-The home page greets the user with a hero image of a chess board. This was chosen due the popularity of the game and the fact that it is a game that is recognised around the world and in many cultures. There is also a block of text with concise description of the website.
+*The home page greets the user with a hero image of a chess board. This was chosen due the popularity of the game and the fact that it is a game that is recognised around the world and in many cultures. There is also a block of text with concise description of the website.
 
-Beneath the hero image, we have the contrasting meet up section. This was to clearly split it up from the introduction as well as to make it eye catching to both new and frequent users. New users will be encouraged to sign up and frequent users will be able to easily find the meet up times in case they need to be reminded. 
+*Beneath the hero image, we have the contrasting meet up section. This was to clearly split it up from the introduction as well as to make it eye catching to both new and frequent users. New users will be encouraged to sign up and frequent users will be able to easily find the meet up times in case they need to be reminded. 
 
-The meet up times are in white boxes which can be clicked. It redirects the user to the sign-up page. The white boxes once again provides some contrast making it eye catching for the user and can quickly be used to remind the user or redirect the user to the sign up page.
+*The meet up times are in white bordered boxes which can be clicked. It redirects the user to the sign-up page. When the user hovers over the boxes, colours are once again flipped like in the navigation bar. It is to fit in with the theme of the website.
 
-The last section (before the footer) involves the reasons to join. This is primarily for new users who have never been to meet up before. The colours are again contrasted from the meet up to provide clear clarity between the two sections. 
+*The last section (before the footer) involves the reasons to join. This is primarily for new users who have never been to a meet up before. The colours are again contrasted from the meet up to provide clear clarity between the two sections. Furthermore, there is a video which the user can play to see what a meet up can look like. This is to encourage the user to see 'what's on' and sign up. 
+
+
 
 
 

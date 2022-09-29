@@ -489,3 +489,9 @@ select{
 
 
 
+@media screen and (max-width: 1600px){
+    #reasons > video { 
+        width: 35%;
+    }
+}
+
