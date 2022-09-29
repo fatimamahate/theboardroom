@@ -70,16 +70,16 @@ header{
 
     animation-name: chess-zoom;
     animation-duration: 3s;
-    animation-fill-mode:forwards;
+    animation-fill-mode:backwards;
 }
 
 /* zoom */
 @keyframes chess-zoom {
     from{
-        transform: scale(1);
+        transform: scale(1.1);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(1);
     }
 }
 
@@ -489,9 +489,11 @@ select{
 
 
 
-@media screen and (max-width: 1600px){
+@media only screen and (max-width: 1600px){
     #reasons video { 
+        clear:right;
         width: 35%;
+        margin:0 10px 0 0;
     }
 }
 
