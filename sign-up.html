@@ -27,12 +27,12 @@
             <label for="name" class="text-label">Name</label>
             <input type="text" name="name" id="name" class="text-input" required>
             <br>
-            <label for="email-address" class="text-label">Email Address</label>
-            <input type="email" name="email-address" id="email_address" class="text-input" required>
+            <label for="email_address" class="text-label">Email Address</label>
+            <input type="email" name="email_address" id="email_address" class="text-input" required>
 
             <p>Which game would you prefer to play?</p>
             
-            <select name="game" id="game" size="" required>
+            <select name="game" id="game" required>
                 <option value="">~~Select Game~~</option>
                 <option value="Duopoly">Duopoly</option>
                 <option value="HintDo">HintDo</option>
@@ -40,15 +40,15 @@
             </select>
 
             <p>Which meet up times would you like to attend?</p>
-            <label for="session">Thursday</label>
-            <input type="checkbox" name="session" id="meetup1" value="one">
-            <label for="session">Friday</label>
-            <input type="checkbox" name="session" id="meetup2" value="two">
+            <label for="meetup1">Thursday</label>
+            <input type="checkbox" name="session" id="meetup1" value="Thursday">
+            <label for="meetup2">Friday</label>
+            <input type="checkbox" name="session" id="meetup2" value="Friday">
 
             <p>Would you like to donate a board game?</p>
-            <label for="donate">Yes</label>
+            <label for="yes">Yes</label>
             <input type="radio" name="donate" id="yes" value="Y">
-            <label for="donate">No</label>
+            <label for="no">No</label>
             <input type="radio" name="donate" id="no" value="N">
             <br>
             <button type="submit" id="submit">Send</button>

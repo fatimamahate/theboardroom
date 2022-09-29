@@ -61,7 +61,34 @@ Users of the website will
 
 * The user can choose to donate a board game but this is entirely optional. Since the user can either donate or not donate, the radio button is used. This ensures only one answer is selected. 
 
-## 
+## Design
+
+* Throughout the website, two primay colours are used. These are white and dark brown. This was inspired by the colours on a chess board. Furthermore, the brown was chosen since it is an earthy colour and so the user can feel comfortable. 
+
+* There are 3 different images in the background. All images purposely have a light and dark element. For example, the hero image in the homepage is primarily light but with a single brown chess piece. Thia is eyecatching but also fits in with the mor egeneral light and dark theme of the website.
+
+* All clickable links (except the logo) changes so that when the user hovers over the text, the colour inverts. 
+
+* A single font has been used throughout the website. The font used is Source Sans Pro and is imported from Google Fonts. This was used since it has a clean look and will appeal to modern audiences who may not play games as often. 
+
+## Technologies Used
+
+* Google Fonts
+* Pexels
+* Unsplash
+* Font Awesome
+* Git
+* Github
+
+The Languages used are:
+* HTML5
+* CSS3
+
+## Testing
+
+ADD VALIDATOR RESULTS HERE
+
+## Credits
 
 
 
