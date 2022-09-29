@@ -255,29 +255,16 @@ footer{
     font-size: 1.1rem;
 }
 
-/* #whats-on-text>h2{
-    background-color: rgb(51, 10, 10);
-    color:white;
-    width:100%;
-    line-height: normal;
-    margin:0.5rem;
-}
-
-#whats-on-text>p{
+select{
+    text-align: center;
+    font-family: 'source sans pro', sans-serif;
     font-size: 1.1rem;
 }
 
-#whats-on-text{
-    margin: 50px 0 50px 0;
-    color:#fff;
-    background-color:rgb(51, 10, 10);
-    text-align: center;
-    width:33%;
-    max-width:1800px;
-    position:absolute;
-    left:10%;
-    padding:10px;
-} */
+
+
+
+
 
 .shop{
     display: grid;
