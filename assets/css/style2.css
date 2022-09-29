@@ -97,7 +97,10 @@ header{
     margin-left: 25px;
     padding:25px;
     width:100%;
+
 }
+
+
 
 /* index meet up section */
 #meetup{
@@ -145,7 +148,7 @@ header{
 }
 
 .meetup-box :hover{
-    background-color: #fff;
+    background-color: white;
     color:rgb(51, 10, 10);
 }
 
