@@ -157,20 +157,29 @@ header{
     height:600px;
     color: rgb(51, 10, 10);
     margin-top:5rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
- #reasons ul{
+#reasons ul{
     list-style: none;
     text-align: center;
-    margin:0;
+    margin:0 2% 200px 2%;
     font-size: 1.5rem;
-    padding:0;
+    padding:10px;
+    float:left;
+    left:5%;
 } 
 
 #reasons h3{
     font-size: 2rem;
     margin: 0;
+}
+
+#reasons video{
+    float:right;
+    width: 35%;
+    height:auto;
+    margin: 100px 2% 0 0;
 }
 
 /* footer */
@@ -289,9 +298,6 @@ select{
 .text-input:hover{
     border: rgb(151, 148, 148) 4px solid;
 }
-
-
-
 
 .shop{
     display: grid;
