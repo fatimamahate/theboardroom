@@ -85,7 +85,6 @@ header{
     margin-top: 37.5px;
     margin-left: 25px;
     padding:25px;
-
 }
 
 #intro-text> p{
@@ -133,13 +132,21 @@ header{
 #time1{
     float:left;
     margin-left: 25%;
-    background-color: white;
 }
 
 #time2{
     float: right;
     margin-right: 25%;
+}
+
+.meetup-box{
+    background-color: rgb(51, 10, 10);
+    color:white;
+}
+
+.meetup-box :hover{
     background-color: white;
+    color:rgb(51, 10, 10);
 }
 
 /* index reasons to join */
@@ -170,7 +177,6 @@ footer{
     margin-top: 50px;
     bottom:0;
     left:0;
-    
     width:100%;
     overflow: hidden;
     /* background-color: black; */
