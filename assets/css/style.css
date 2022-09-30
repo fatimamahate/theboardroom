@@ -65,7 +65,7 @@ header{
     overflow:hidden;
     position:relative;
     text-align: center;
-    background: url(../images/randy-fath-G1yhU1Ej-9A-unsplash.jpg) no-repeat center center;
+    background: url(../images/main-page-chess-unsplash.jpg) no-repeat center center;
     background-size: cover;
 
     animation-name: chess-zoom;
@@ -177,8 +177,6 @@ header{
     margin:0 2% 200px 2%;
     font-size: 1.5rem;
     padding:10px;
-    float:left;
-    left:5%;
 } 
 
 #reasons h3{
@@ -186,23 +184,16 @@ header{
     margin: 0;
 }
 
-#reasons video{
-    float:right;
-    width: 35%;
-    height:auto;
-    margin: 100px 2% 0 0;
-}
-
 /* footer */
 footer{
     height:150px;
-    position:absolute;
     border-top: 3px solid rgb(51, 10, 10);
     margin-top: 47px;
     bottom:0;
     left:0;
     width:100%;
     overflow: hidden;
+    max-width: 1800pz;
 }
 
 .socials{
@@ -227,29 +218,6 @@ footer{
     font-size:2rem;
 }
 
-.address > p{
-    display:inline;
-    margin-left: 50px;
-    margin-right:150px;
-    margin-top:25px;
-    text-align: center;
-    float:left;
-    left:50%;
-    font-size: 1.1rem;
-}
-
-.contact-info > p{
-    display:inline;
-    margin-left: 50px;
-    margin-right:50px;
-    margin-top:25px;
-    text-align: center;
-    float:right;
-    right:50%;
-    font-size:1.1rem;
-}
-
-
 /* sign-up page */
 .form-section{
     height:600px;
@@ -258,7 +226,7 @@ footer{
     overflow:hidden;
     position:relative;
     text-align: center;
-    background: url(../images/pexels-vlada-karpovich-6114959.jpg) ;
+    background: url(../images/sign-up-chess-pexels.jpg) ;
     background-size: cover;
     background-position:bottom;
 }
@@ -339,8 +307,9 @@ select{
 
 #play-games{
     width:100%;
+    max-width: 1800px;
     height: 700px;
-    background: url(../images/riho-kroll-m4sGYaHYN5o-unsplash.jpg) no-repeat center center;
+    background: url(../images/thrown-dice-unsplash.jpg) no-repeat center center;
     background-position: center;
     background-size: cover;
     margin-bottom: 150px;
@@ -399,6 +368,7 @@ select{
 
 .overlay{
     width: 100%;
+    max-width: 1800px;
     display: none;
     position: relative; 
     padding: 0; 
@@ -407,9 +377,12 @@ select{
 
 #ov1, #ov2, #ov3{
     width:50%;
+    max-width: 1800px;
     font-size: 2rem;
     left:25%;
     right:25%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
     position: absolute;
     border: 10px solid rgb(51, 10, 10);
