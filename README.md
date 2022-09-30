@@ -47,7 +47,7 @@ Users of the website will
 
 ![Meet Up Section](./documentation/features/meetup-home%20page.JPG)
 
-* The last section (before the footer) involves the reasons to join. This is primarily for new users who have never been to a meet up before. The colours are again contrasted from the meet up to provide clear clarity between the two sections. Furthermore, there is a video which the user can play to see what a meet up can look like. This will encourage the user to see 'what's on' or sign up to The Board Room. 
+* The last section (before the footer) involves the reasons to join. This is primarily for new users who have never been to a meet up before. The colours are again contrasted from the meet up to provide clear clarity between the two sections. 
 
 ![Reasons to Join Section](./documentation/features/reasons%20to%20join-%20home%20page.JPG)
 
