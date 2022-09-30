@@ -63,21 +63,7 @@ header{
     position:relative;
     text-align: center;
     background: url(../images/main-page-chess-unsplash.jpg) no-repeat center center;
-    background-size: cover;
-
-    animation-name: chess-zoom;
-    animation-duration: 3s;
-    animation-fill-mode:backwards;
-}
-
-/* zoom */
-@keyframes chess-zoom {
-    from{
-        transform: scale(1.1);
-    }
-    to{
-        transform: scale(1);
-    }
+    background-size: cover; 
 }
 
 #intro-text{
@@ -438,7 +424,7 @@ select{
     
     #id2{
         margin-top:2%; 
-        margin-right: px; 
+        margin-right: 0px; 
         padding:0;  
     }
     
