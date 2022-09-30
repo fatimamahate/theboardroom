@@ -380,15 +380,15 @@ select{
 
 #ov1, #ov2, #ov3{
     width:50%;
-    max-width: 1800px;
+    /* max-width: 1800px; */
     font-size: 2rem;
     left:25%;
-    right:25%;
+    right:35%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    position: absolute;
-    border: 10px solid rgb(51, 10, 10);
+    position: inherit;
+    border: 3px solid rgb(51, 10, 10);
 }
 
 #id1:hover ~ #ov1{
@@ -424,11 +424,24 @@ select{
     color:rgb(51, 10, 10);
 }
 
-@media only screen and (max-width: 1600px){
-    #reasons video { 
-        clear:right;
-        width: 35%;
-        margin:0 10px 0 0;
+@media only screen and (max-width: 640px){
+    #meetup-intro h3{
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-size: 2rem;
+        padding:20px;
     }
+}
+
+@media only screen and (max-width: 600px){
+    #meetup{
+        height: 500px;
+    }
+    
+    
+    #meetup-intro{
+        padding:20px;
+    }
+    
 }
 
