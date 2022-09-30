@@ -79,6 +79,8 @@ Users of the website will
 
 ## Design
 
+## Current
+
 * Throughout the website, two primay colours are used. These are white and dark brown. This was inspired by the colours on a chess board. Furthermore, the brown was chosen since it is an earthy colour and so the user can feel comfortable. 
 
 * There are 3 different images in the background. All images purposely have a light and dark element. For example, the hero image in the homepage is primarily light but with a single brown chess piece. This is eyecatching but also fits in with the more general light and dark theme of the website.
@@ -97,7 +99,12 @@ Users of the website will
 
 * A single font has been used throughout the website. The font used is Source Sans Pro and is imported from Google Fonts. This was used since it has a clean look and will appeal to modern audiences who may not play games as often.Another font called Permanent Marker was imported and trialled however is not used in the deployed website. 
 
-## Technologies Used
+### Future 
+* It would be ideal to include a video on the homepage. This can entice the user and a new user can understand what The Board Room is about. 
+
+* CSS grid would be useful to show images of the games in the What's On page. Futhermore, expanding The Board Room would mean more games to be included. An overlay such as the one in [this](https://www.w3schools.com/howto/howto_css_image_overlay.asp) website would be useful.
+
+## Technologies
 
 * [Google Fonts](https://fonts.google.com/) - Imported the Source Sans Pro font
 * [Pexels](https://www.pexels.com/) - Used free to use images for background
@@ -144,14 +151,51 @@ Users of the website will
 * CSS Validator can be found [here](https://jigsaw.w3.org/css-validator/)
 ![CSS Validation](./documentation/testing/validation/CSS%20stylesheet.png)
 
-### Lighthouse
-
-
-
 ## Deployment
+### Deploy
+* To deploy the site, first go to the GitHub repository.
+* Click on Settings in the repository's nav bar. 
+* On the left hand side, click on Pages
+* Where is says branch, there is a dropdown menu. Select Main and then save.
+* A live link should appear (this can take a while)
 
+### Clone
+* To clone a repository, go to the GitHub repository.
+* Click on Code
+* Copy the link
+* Open GitBash
+* Type in git clone, copy your URL and press enter.
+
+### Push and Commit
+* First in GitBash type in git add . 
+* To commit any changes, type in git commit -m "Add your description of change here"
+* Finally type in git push. This will push code to GitHub.
 
 ## Credits
+### Content
+* The idea to have text description of each game was through the idea of [overlays over images](https://www.w3schools.com/howto/howto_css_image_overlay.asp). 
+
+* The footer was inspired by the Code Institute [Love Running](https://codeinstitute.net/) Project as part of PP1.
+
+### Icons
+* All icons that are used are from the [Font Awesome](https://fontawesome.com/) Website after searching chess. 
+
+### Images
+* Images are downloaded from [Pexels](https://www.pexels.com/) or [Unsplash](https://unsplash.com/)
+
+    * The Home Page Chess image is from Unsplash and is by [Randy Faith](https://unsplash.com/photos/G1yhU1Ej-9A)
+
+    * The What's On Page Dice image is from Unsplash and is by [Riho Kroll](https://unsplash.com/photos/m4sGYaHYN5o)
+
+    * The Sign Up Page Chess image is from Pexels and is by [Vlada Karpovich](https://www.pexels.com/photo/chess-pieces-on-the-board-6114955/)
+
+## Acknowledgements
+A very big thank you to my mentor Brian Mancharia who gave me invaluable advice throughout the project.
+
+
+
+
+
 
 
 
