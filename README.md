@@ -1,6 +1,6 @@
 <h1 align="center">The Board Room Website</h1>
 
-[Find The Board Room website here](fatimamahate.github.io/theboardroom/)
+[Find The Board Room website here](https://fatimamahate.github.io/theboardroom/)
 
 The Board Room is a website for board game lovers who would like to purchase board games as well as join monthly meetups to meet new people and play games. The website name is a play on the fact that we play games when we are bored and also the fact that this is exclusively a board game website. 
 
