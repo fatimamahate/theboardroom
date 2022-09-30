@@ -105,14 +105,32 @@ Users of the website will
 * [Font Awesome](https://fontawesome.com/) - Used free to use icons for logo
 * [Git](https://git-scm.com/) - Used for version control
 * [Github](https://github.com/) - Used to contain the repository and to deploy
-
-The Languages used are:
 * HTML5
 * CSS3
 
 ## Testing
 
-ADD VALIDATOR RESULTS HERE
+### Functionality
+* The image below shows the test for functionality of each interactive element.
+
+![Testing functionaility table](./documentation/testing/testing.JPG)
+
+### Browsers
+* This website was tested on both Google Chrome and Internet Edge. 
+
+### Responsive Media
+* This website was tested on a laptop of 1024px, a tablet of 768px and mobiles of width 425px, 375px and 320px. The screens sizes above 1024px maintain the ratio with max width set as 1800px. 
+
+* The media queries are split into three with the first having a max-width of 1024px, the second having a max-width of 540px and the third having a max-width of 320px. 
+
+### Laptop (1024px)
+![Laptop](./documentation/testing/Responsive/laptop.png)
+
+### Tablet (768px)
+![Tablet](./documentation/testing/Responsive/tablet.png)
+
+### Mobile (320px)
+![Mobile](./documentation/testing/Responsive/phone.png)
 
 ## Credits
 
