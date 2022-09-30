@@ -190,16 +190,4 @@ Users of the website will
     * The Sign Up Page Chess image is from Pexels and is by [Vlada Karpovich](https://www.pexels.com/photo/chess-pieces-on-the-board-6114955/)
 
 ## Acknowledgements
-A very big thank you to my mentor Brian Mancharia who gave me invaluable advice throughout the project.
-
-
-
-
-
-
-
-
-
-
-
-
+A very big thank you to my mentor Brian Mancharia who gave me invaluable advice throughout the project. 
