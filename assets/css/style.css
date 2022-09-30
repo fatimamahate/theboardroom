@@ -426,22 +426,19 @@ select{
 
 @media only screen and (max-width: 640px){
     #meetup-intro h3{
-        margin-top: 2px;
-        margin-bottom: 2px;
         font-size: 2rem;
+        padding:20px;
+    }
+    #meetup{
+        height: 450px;
+    }
+    
+    #meetup-intro{
         padding:20px;
     }
 }
 
 @media only screen and (max-width: 600px){
-    #meetup{
-        height: 500px;
-    }
-    
-    
-    #meetup-intro{
-        padding:20px;
-    }
     
 }
 
