@@ -35,12 +35,9 @@ header{
     overflow: hidden;
 }
 
-
-
 #menu li{
     float:right;
     list-style-type: none;
-    margin: 0 30px 0 0;
     font-size: 1.5rem;
     margin-left: 10px;
     margin-right: 50px;
@@ -111,7 +108,6 @@ header{
     margin-left:125px;
     padding:25px;
     width:100%;
-
 }
 
 /* index meet up section */
@@ -169,6 +165,7 @@ header{
     height:600px;
     color: rgb(51, 10, 10);
     margin-top:5rem;
+    overflow: hidden;
 }
 
 #reasons ul{
@@ -193,7 +190,7 @@ footer{
     left:0;
     width:100%;
     overflow: hidden;
-    max-width: 1800pz;
+    max-width: 1800px;
 }
 
 .socials{
@@ -242,7 +239,6 @@ footer{
 #form-text>label{
     font-size: 1.1rem;
     padding: 0.2rem 0 0.2rem 0;
-    
 }
 
 
@@ -290,7 +286,6 @@ select{
 
 .text-label{
     display: block;
-
 }
 
 .text-input{
@@ -358,7 +353,6 @@ select{
 
 #id3{
     float:left;
-    /* left:5%; */
     width:fit-content;
     margin-top: 25%;
     padding: 49px 60px;
@@ -380,7 +374,6 @@ select{
 
 #ov1, #ov2, #ov3{
     width:50%;
-    /* max-width: 1800px; */
     font-size: 2rem;
     left:25%;
     right:35%;
@@ -424,21 +417,159 @@ select{
     color:rgb(51, 10, 10);
 }
 
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 1024px){ 
+    #intro-text > h3{ 
+        font-size: 2rem;
+    }
+
+    #intro-text> p{
+        font-size: 1.6rem;
+    }
+
     #meetup-intro h3{
         font-size: 2rem;
-        padding:20px;
     }
-    #meetup{
-        height: 450px;
+
+    #id1{
+        margin-top:2%; 
+        right:10%;
+        padding:0;
     }
     
-    #meetup-intro{
-        padding:20px;
+    #id2{
+        margin-top:2%; 
+        margin-right: px; 
+        padding:0;  
+    }
+    
+    #id3{
+        margin-top:2%;
+        padding:0 3px; 
+    }
+       
+    #ov1, #ov2, #ov3{
+        font-size: 1.5rem;
+    }
+
+    /* sign up page */
+
+    .form-section{
+        height:650px; /* */
+    }
+    
+    #form-text{
+
+        width:50%; /* */
+    }
+    
+    #form-text>input{
+        font-size: 1.1rem;
+        height:20px;
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 425px){
+    h1{ 
+        font-size:2rem;  
+    }
+
+    #menu,#logo{
+        line-height: 40px;
+    }
     
+    #menu li{
+        font-size: 1.2rem;
+        margin-left: 5px;
+        margin-right: 10px;
+    } 
+
+    #meetup{
+        height: 500px;
+    }
+    
+    .time{
+        font-size: 1rem;
+    }
+
+    #reasons{
+        height: 500px;
+        margin-top:4rem;
+    }
+    
+    #reasons ul{
+        font-size: 1rem;  
+    } 
+    
+    #reasons h3{
+        font-size: 1.5rem;
+    }
+
+    #form-text> h2{
+        background-color: rgb(51, 10, 10);
+        width:100%;
+        font-size: 1.5rem;
+        line-height: normal;
+        margin:0.1rem;
+    }
+    
+    #form-text>label{
+        font-size: 1.1rem;
+        padding: 0.2rem 0 0.2rem 0;
+    }
+    
+    #form-text>p{
+        font-size: 1.1rem;
+    }
+    
+    footer{
+        height:200px;
+    }
+
+    #play-games > h2{
+        font-size: 1.5rem;
+    }
+
+    #play-games{
+        height: 500px;
+    }
+
+    #ov1, #ov2, #ov3{
+        font-size: 1rem;
+    }
+
+    .socials li{
+        display:block;
+    }
+    
+    .socials li a{
+        font-size:1.5rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    #play-games{
+        height: 800px;
+    }
+    
+    #id1{
+        margin-top:2%; 
+        right:1%;
+        padding:0;
+    }
+    
+    #id2{
+        margin-top:2%; 
+        margin-right: 0px; 
+        padding:0;  
+    }
+    
+    #id3{
+        margin-top:2%;
+        padding:0; 
+    }
+
+    .form-section{
+        height:700px; 
+    }
 }
 
