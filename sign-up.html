@@ -26,14 +26,14 @@
         <form  action="https://formdump.codeinstitute.net" method="POST" id="form-text">
             <h2> Let's meet up! </h2>
             <label for="name" class="text-label">Name</label>
-            <input type="text" name="name" id="name" class="text-input" required>
+            <input type="text" name="name" id="name" class="text-input" required aria-required="true">
             <br>
             <label for="email_address" class="text-label">Email Address</label>
-            <input type="email" name="email_address" id="email_address" class="text-input" required>
+            <input type="email" name="email_address" id="email_address" class="text-input" required aria-required="true">
 
             <p>Which game would you prefer to play?</p>
             
-            <select name="game" id="game" required>
+            <select name="game" id="game" required aria-required="true">
                 <option value="">~~Select Game~~</option>
                 <option value="Duopoly">Duopoly</option>
                 <option value="HintDo">HintDo</option>
@@ -42,13 +42,13 @@
 
             <p>Which meet up times would you like to attend?</p>
             <label for="meetup1">Thursday</label>
-            <input type="checkbox" name="session" id="meetup1" value="Thursday">
+            <input type="checkbox" name="session" id="meetup1" value="Thursday" checked aria-checked="true">
             <label for="meetup2">Friday</label>
-            <input type="checkbox" name="session" id="meetup2" value="Friday">
+            <input type="checkbox" name="session" id="meetup2" value="Friday" checked aria-checked="true">
 
             <p>Would you like to donate a board game?</p>
             <label for="yes">Yes</label>
-            <input type="radio" name="donate" id="yes" value="Y">
+            <input type="radio" name="donate" id="yes" value="Y" required aria-required="true">
             <label for="no">No</label>
             <input type="radio" name="donate" id="no" value="N">
             <br>
