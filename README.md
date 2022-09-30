@@ -120,7 +120,7 @@ Users of the website will
 ### Functionality
 * The image below shows the test for functionality of each interactive element.
 
-![Testing functionaility table](./documentation/testing/testing.JPG)
+![Testing functionaility table](./documentation/testing/functionality.JPG)
 
 #### Browsers
 * This website was tested on both Google Chrome and Internet Edge. 
